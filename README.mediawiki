@@ -1,0 +1,4 @@
+== README ==
+This repo is to track my .rc configuration files that live my $HOME on multiple servers.
+You're welcome to use or fork this repo at you're own risk. There is no grantee that existing
+functionality or configuration will be supported in future changes.
