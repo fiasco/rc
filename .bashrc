@@ -131,3 +131,8 @@ function dmod {
     echo "$1 does not exist."
   fi
 }
+
+# Allow local, untracked, modifications to .bashrc.
+if [ -f $HOME/.lbashrc ]; then
+  source $HOME/.lbashrc
+fi
